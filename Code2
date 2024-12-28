@@ -1723,19 +1723,19 @@ campaignTrail_temp.issues_json = [
             "name": "Approval of Bush",
             "description": "Bush's term has proven to be one of the most disastrous and controversial in recent years. From war in the Middle East to Economic recession, few in America aren't somewhat critical of his presidency. Tough some corners in America still support him and his crusade against Terrorism and Homosexuality",
             "stance_1": "Faded Bushmania",
-            "stance_desc_1": "Supports the immediate deportation of all illegal immigrants living in the United States. Supports the construction of a border wall. Takes a hard line on legal immigration and visa approvals. Sees Hispanics and other immigrants as a threat to American culture and as a strain on social programs.",
+            "stance_desc_1": "",
             "stance_2": "An Honest Conservative",
-            "stance_desc_2": "Supports deportation of illegal immigrants living in the United States, with no exceptions based on time spent in the country. Supports construction of a wall and increased border security. May favor incremental measures to avoid the disruption would follow from deporting up to 20 million people in a short period of time.",
+            "stance_desc_2": "",
             "stance_3": " Tried his best",
-            "stance_desc_3": "Supports deportation of illegal immigrants, but may be willing to offer select, long-term residents a path to citizenship. May or may not advocate for a reduction in legal immigration. Supports increased border security as the best way to solve the issue in the long-term.",
+            "stance_desc_3": "",
             "stance_4": "Could've been worse",
-            "stance_desc_4": "Supports deportation of newly arrived illegal immigrants, a path to citizenship for some long-term residents, and increased border security. Generally sees legal, skilled immigrants as an economic asset.",
+            "stance_desc_4": "",
             "stance_5": "A Charming Failure",
-            "stance_desc_5": "Favors some kind of citizenship program for long-term and young illegal immigrants. Friendly with the Hispanic community and not fundamentally opposed to immigration, but may be opposed to policies such as bilingual education. Supports increases in legal immigration and in visa programs.",
+            "stance_desc_5": "",
             "stance_6": "2000 Truthers",
-            "stance_desc_6": "Supports a path to citizenship for most illegal immigrants. Would relax immigration restrictions from all sources. Sees current border security as adequate, and does not believe it is the main issue in the current immigration debate.",
-            "stance_7": "2nd coming Hoover",
-            "stance_desc_7": "Supports huge increases in legal immigration. Would not attempt to deport individuals currently living in the United States. Supports the basic premises of multiculturalism and programs like bilingual education.",
+            "stance_desc_6": "",
+            "stance_7": "2nd coming of Hoover",
+            "stance_desc_7": "",
             "election": 3
         }
     }
@@ -1788,7 +1788,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 1,
             "issue": 5,
-            "state_issue_score": -0.6,
+            "state_issue_score": -0.2,
             "weight": 0.8
         }
     },
@@ -1838,7 +1838,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 2,
             "issue": 5,
-            "state_issue_score": -0.1,
+            "state_issue_score": 0,
             "weight": 0.8
         }
     },
@@ -1888,7 +1888,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 3,
             "issue": 5,
-            "state_issue_score": -0.85,
+            "state_issue_score": 0.15,
             "weight": 1
         }
     },
@@ -1938,8 +1938,8 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 4,
             "issue": 5,
-            "state_issue_score": -0.55,
-            "weight": 0.8
+            "state_issue_score": 0.2,
+            "weight": 1
         }
     },
     {
@@ -1988,7 +1988,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 5,
             "issue": 5,
-            "state_issue_score": 0.7,
+            "state_issue_score": 0.85,
             "weight": 1
         }
     },
@@ -2038,7 +2038,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 6,
             "issue": 5,
-            "state_issue_score": 0,
+            "state_issue_score": 0.45,
             "weight": 0.8
         }
     },
@@ -2088,7 +2088,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 7,
             "issue": 5,
-            "state_issue_score": 0.45,
+            "state_issue_score": 0.7,
             "weight": 0.8
         }
     },
@@ -2138,7 +2138,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 8,
             "issue": 5,
-            "state_issue_score": 0.3,
+            "state_issue_score": 0.5,
             "weight": 0.8
         }
     },
@@ -4335,7 +4335,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 5,
         "fields": {
-            "candidate": 1002,
+            "candidate": 16,
             "issue": 5,
             "issue_score": 0.65
         }
@@ -4518,7 +4518,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 65,
         "fields": {
-            "candidate": 1002,
+            "candidate": 30,
             "issue": 5,
             "issue_score": 0.6
         }
