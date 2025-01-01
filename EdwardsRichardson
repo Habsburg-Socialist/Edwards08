@@ -1652,21 +1652,21 @@ campaignTrail_temp.issues_json = [
         "pk": 2,
         "fields": {
             "name": "Health Care",
-            "description": "Barack Obama's signature achievement from his first term was a landmark health care reform act. The law will establish insurance exchanges which must meet minimum coverage standards, and also cannot deny people based on pre-existing conditions. To help support these policies, every American will be mandated to purchase health insurance.",
-            "stance_1": "Very Conservative",
-            "stance_desc_1": "Believes that government regulations have put an unaffordable burden on doctors and insurance companies. Supports drastic cuts to Medicare and Medicaid. May support an end to the FDA and other regulatory agencies to restore competitiveness to the American health care system.",
-            "stance_2": "Conservative",
-            "stance_desc_2": "Supports a greater role for the free market in the halth care sector. Opposed to Obamacare. Probably would not support an end to the FDA or other, more radical measures.",
-            "stance_3": "Leans Conservative",
-            "stance_desc_3": "Probably opposed to Obamacare. Would probably support malpractice reform and other incremental measures to cut overall health care costs, without challenging the larger regulatory system.",
-            "stance_4": "Moderate",
-            "stance_desc_4": "Supports some effort to collectively insure the poor and the chronically ill. May disagree with certain aspects of Obamacare or may not support a mandate, but agrees that the current system needs more intervention.",
-            "stance_5": "Leans Liberal",
-            "stance_desc_5": "Supports Obamacare more or less as is. Rejects calls for a public option but supports an insurance mandate and also strongly supports the existing Medicare system.",
-            "stance_6": "Liberal",
-            "stance_desc_6": "Supports Obamacare but also would support a public insurance agency to ensure minimum coverage standards are met at an affordable cost. Believes that malpractice suits are conducive to good care by providing oversight of the medical system.",
-            "stance_7": "Very Liberal",
-            "stance_desc_7": "Admires the attempt of Obamacare to reform the system, but sees the change as too incremental. Favors a socialized medical system on the model of most European countries.",
+            "description": "Following discontent with Bush's conservative policies and soaring costs of medical care, the movement for Healthcare reform is the strongest it's been since the 70s. Most people support the expansion of healthcare access and medicare benefits at the very least, and liberals have even been pushing for a Universal Program of sorts.",
+            "stance_1": "AMA Mafia",
+            "stance_desc_1": "",
+            "stance_2": "Survival of the fittest",
+            "stance_desc_2": "",
+            "stance_3": "Trusts in the Hand",
+            "stance_desc_3": "Believes that if given a greater role, the invisible hand of the Free-Market will lower healthcare costs. Opposes further government intervention and regulation in the Medical industry",
+            "stance_4": "Toothless Reform",
+            "stance_desc_4": "Understands the problem of Healthcare expenses and want's the government to help, but to craven to want any real change.",
+            "stance_5": "Expansion of coverage",
+            "stance_desc_5": "Supports significant expansions in coverage and benefits for programs like Medicare and Medicaid. Wary but not entirely opposed to something like a public option.",
+            "stance_6": "Ambitious reform",
+            "stance_desc_6": "Advocates significant reforms in the Healthcare industry. Supported policies similar to Senator Obama's in the primary, though a bit wary of something like universal care.",
+            "stance_7": "Healthcare for all!",
+            "stance_desc_7": "Believers in true change, advocates for a universal system like those in various European countries. Your people",
             "election": 3
         }
     },
@@ -4310,7 +4310,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 16,
             "issue": 2,
-            "issue_score": 0.5
+            "issue_score": 0.8
         }
     },
     {
@@ -4355,7 +4355,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 17,
             "issue": 2,
-            "issue_score": -0.3
+            "issue_score": 0
         }
     },
     {
@@ -4445,7 +4445,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 19,
             "issue": 2,
-            "issue_score": 0.9
+            "issue_score": -0.2
         }
     },
     {
@@ -4493,7 +4493,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "fields": {
             "candidate": 30,
             "issue": 2,
-            "issue_score": 0.7
+            "issue_score": 0.65
         }
     },
     {
