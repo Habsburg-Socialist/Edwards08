@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 7,
         "fields": {
             "priority": 1,
-            "description": "A recent Supreme Court decision affirmed an Arizona law allowing officers to check suspected illegal immigrants for proof of immigration status. Do you think this law is a good idea?",
+            "description": "The time has come. Bush he fucked up, the economy, down the gutter they're saying. Dems are nigh guaranteed the presidency, all that's left is for you is to win the Primary. How do we want to start off on the road to Iowa?",
             "likelihood": 1
         }
     },
@@ -264,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 25,
         "fields": {
             "question": 7,
-            "description": "This is an unconscionable violation of civil rights and will certainly lead to racial profiling."
+            "description": "Endorsements, I want to tie myself prominent unions and big names If I'm serious about winning this. I want to make contacts with Kerry, the AFL-CIO, and prominent democrats. "
         }
     },
     {
@@ -272,7 +272,7 @@ campaignTrail_temp.answers_json = [
         "pk": 26,
         "fields": {
             "question": 7,
-            "description": "The proper authority for enforcement rests with the federal government. This law goes further than federal laws and even if constitutional, should be repealed."
+            "description": "I'm going to establish myself as the populist, pro-labor Candidate, we have a real opening here with everyone losing their houses and all. I'll be touring union halls and emphasize my policies on Healthcare, Education, and poverty. We're going to restart LBJ's war on poverty, and people are going to love it."
         }
     },
     {
@@ -928,7 +928,7 @@ campaignTrail_temp.answers_json = [
         "pk": 728,
         "fields": {
             "question": 130,
-            "description": "I want to thank North Carolina for electing me and focus my speech on the efforts I’ve made to serve my constituents, people ought to know that I walk the walk and don’t just talk the talk. During my time out of office I’m going to be touring around Homeless Shelters and Universities  and bring attention the poverty that people are facing, let it be known I plan to a populist campaign where poverty the #1 issue.\n"
+            "description": "I want to thank North Carolina for electing me and focus my speech on the efforts I’ve made to serve my constituents, people ought to know that I walk the walk and don’t just talk the talk. During my time out of office I’m going to be touring around Homeless Shelters and Universities and bring attention the poverty that people are facing, let it be known I plan to a populist campaign where poverty the #1 issue.\n"
         }
     }
 ]
@@ -6366,9 +6366,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 9,
         "fields": {
             "answer": 25,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.01
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": 0.005
         }
     },
     {
@@ -6918,7 +6918,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 330,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.001
         }
     },
     {
@@ -6928,7 +6928,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 331,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.005
         }
     },
     {
@@ -7481,36 +7481,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4,
             "issue": 3,
             "issue_score": -0.7,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 24,
-        "fields": {
-            "answer": 25,
-            "issue": 5,
-            "issue_score": 0.8,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 25,
-        "fields": {
-            "answer": 25,
-            "issue": 4,
-            "issue_score": 0.8,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 26,
-        "fields": {
-            "answer": 26,
-            "issue": 5,
-            "issue_score": 0.3,
             "issue_importance": 1
         }
     },
@@ -8116,22 +8086,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 262,
-        "fields": {
-            "answer": 330,
-            "issue": 1,
-            "issue_score": 0,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 267,
         "fields": {
             "answer": 331,
             "issue": 1,
             "issue_score": 0.5,
-            "issue_importance": 5
+            "issue_importance": 1
         }
     },
     {
@@ -8223,43 +8183,50 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.45,
             "issue_importance": 5
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1167,
+        "fields": {
+            "answer": 25,
+            "issue": "1",
+            "issue_score": 0.3,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1176,
+        "fields": {
+            "answer": 26,
+            "issue": "1",
+            "issue_score": 0.75,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1177,
+        "fields": {
+            "answer": 26,
+            "issue": 2,
+            "issue_score": 0.8,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1178,
+        "fields": {
+            "answer": 26,
+            "issue": "1",
+            "issue_score": 0,
+            "issue_importance": 0
+        }
     }
 ]
 
 campaignTrail_temp.answer_score_state_json = [
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 26,
-        "fields": {
-            "answer": 25,
-            "state": 3,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 27,
-        "fields": {
-            "answer": 25,
-            "state": 5,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 28,
-        "fields": {
-            "answer": 25,
-            "state": 31,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.02
-        }
-    },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 29,
@@ -9109,39 +9076,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 936,
-        "fields": {
-            "answer": 25,
-            "state": 3,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": -0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 937,
-        "fields": {
-            "answer": 25,
-            "state": 5,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 938,
-        "fields": {
-            "answer": 25,
-            "state": 31,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": 0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 939,
         "fields": {
             "answer": 26,
@@ -9986,6 +9920,83 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 17,
             "state_multiplier": -0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1166,
+        "fields": {
+            "answer": 331,
+            "state": 18,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1168,
+        "fields": {
+            "answer": 25,
+            "state": 15,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1170,
+        "fields": {
+            "answer": 25,
+            "state": 22,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1171,
+        "fields": {
+            "answer": 25,
+            "state": 23,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1172,
+        "fields": {
+            "answer": 25,
+            "state": 50,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1173,
+        "fields": {
+            "answer": 25,
+            "state": 35,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1174,
+        "fields": {
+            "answer": 25,
+            "state": 38,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.005
+        }
     }
 ]
 
@@ -9996,7 +10007,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 25,
             "candidate": 16,
-            "answer_feedback": "This is just what the liberal wing of your party wants to hear."
+            "answer_feedback": "Kerry, your would-be boss if things had been a bit different only 3 years, leaves you out to dry. Perhaps he was planning to sideline you if he won back in 04. You don't need him anyway, endorsements from Harkin, Sanders, Rockefeller, the ASW, and the SEIU help you build up your profile. Even Ralph Nader comes out in favor you, if thats a good thing."
         }
     },
     {
@@ -10167,7 +10178,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 330,
             "candidate": 16,
-            "answer_feedback": "Cutting ties with Fortress immediately helps mitigate the potential damage this could've done. People who look hard enough will still feel disturbed about it, but the  story fails to gain traction with the general populace. You can't understand why the post is trying to kill you for this, all you did was try to grow some personal wealth for yourself, what's wrong with that?  "
+            "answer_feedback": "You can't understand why the post is trying to kill you for this, all you did was try to grow some personal wealth for yourself, what's wrong with that? Nevertheless, Cutting ties with Fortress immediately helps mitigate the potential damage this could've done. "
         }
     },
     {
@@ -10176,7 +10187,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 331,
             "candidate": 16,
-            "answer_feedback": "You're passionate apology fans the flames of the story, causing more people to learn about your shady dealings. However your supposedly heartfelt apology and condemnation of foreclosures allow to stop some of the bleeding, meanwhile the \"Louisiana Home Rescue Funds\" allows you become the hero of the working-class you've always wanted to be."
+            "answer_feedback": "Your acknowledgement fans the flames of the story, causing more people to learn about your shady dealings. However your supposedly heartfelt apology and condemnation of foreclosures allow to stop some of the bleeding, meanwhile the \"Louisiana Home Rescue Funds\" nets you limited praise for your selfless charity."
         }
     },
     {
@@ -10204,15 +10215,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 728,
             "candidate": 16,
             "answer_feedback": "North Carolina thanks you for your service, and your populist turn is appreciated by middle america as you tour around universities and speak with organizations like the NAACP and the AFL-CIO. Your \"College For Everyone\" program in Greene County sparks interest as a potential model to lower tuition costs nationwide."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 424,
-        "fields": {
-            "answer": 25,
-            "candidate": 17,
-            "answer_feedback": "This is just what the conservative wing of your party doesn't want to hear."
         }
     },
     {
@@ -10393,6 +10395,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 223,
             "candidate": 17,
             "answer_feedback": "Don't criticize the Tea Party, that's a hopeless debate to get yourself entangled into."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1175,
+        "fields": {
+            "answer": 26,
+            "candidate": 16,
+            "answer_feedback": "John Redwards - class warrior, the conservative media calls you. You're able to rile up the downtrodden with your populist message, but the establishment is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies."
         }
     }
 ]
