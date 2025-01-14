@@ -264,7 +264,7 @@ campaignTrail_temp.answers_json = [
         "pk": 25,
         "fields": {
             "question": 7,
-            "description": "Endorsements, I want to tie myself prominent unions and big names If I'm serious about winning this. I want to make contacts with Kerry, the AFL-CIO, and prominent democrats. "
+            "description": "Endorsements, I want to tie myself prominent unions and big names If I'm serious about winning this. I want to make contacts with Kerry, the AFL-CIO, and prominent democrats and see if they would be willing to help with my campaign. "
         }
     },
     {
@@ -6368,7 +6368,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.006
         }
     },
     {
@@ -7440,6 +7440,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 18,
             "global_multiplier": -0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1179,
+        "fields": {
+            "answer": 26,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": 0.007
+        }
     }
 ]
 
@@ -8189,7 +8199,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 1167,
         "fields": {
             "answer": 25,
-            "issue": "1",
+            "issue": 1,
             "issue_score": 0.3,
             "issue_importance": 1
         }
@@ -8199,7 +8209,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 1176,
         "fields": {
             "answer": 26,
-            "issue": "1",
+            "issue": 1,
             "issue_score": 0.75,
             "issue_importance": 3
         }
@@ -8213,53 +8223,10 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.8,
             "issue_importance": 3
         }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1178,
-        "fields": {
-            "answer": 26,
-            "issue": "1",
-            "issue_score": 0,
-            "issue_importance": 0
-        }
     }
 ]
 
 campaignTrail_temp.answer_score_state_json = [
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 29,
-        "fields": {
-            "answer": 26,
-            "state": 3,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": -0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 30,
-        "fields": {
-            "answer": 26,
-            "state": 5,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 31,
-        "fields": {
-            "answer": 26,
-            "state": 31,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "state_multiplier": 0.01
-        }
-    },
     {
         "model": "campaign_trail.answer_score_state",
         "pk": 32,
@@ -9072,39 +9039,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 16,
             "affected_candidate": 16,
             "state_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 939,
-        "fields": {
-            "answer": 26,
-            "state": 3,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": -0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 940,
-        "fields": {
-            "answer": 26,
-            "state": 5,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 941,
-        "fields": {
-            "answer": 26,
-            "state": 31,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "state_multiplier": 0.01
         }
     },
     {
@@ -9997,6 +9931,50 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 16,
             "state_multiplier": 0.005
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1180,
+        "fields": {
+            "answer": 26,
+            "state": 22,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1181,
+        "fields": {
+            "answer": 26,
+            "state": 14,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1182,
+        "fields": {
+            "answer": 26,
+            "state": 35,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 1183,
+        "fields": {
+            "answer": 26,
+            "state": 50,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "state_multiplier": 0.01
+        }
     }
 ]
 
@@ -10007,7 +9985,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 25,
             "candidate": 16,
-            "answer_feedback": "Kerry, your would-be boss if things had been a bit different only 3 years, leaves you out to dry. Perhaps he was planning to sideline you if he won back in 04. You don't need him anyway, endorsements from Harkin, Sanders, Rockefeller, the ASW, and the SEIU help you build up your profile. Even Ralph Nader comes out in favor you, if thats a good thing."
+            "answer_feedback": "Kerry, your would-be boss if things had been a bit different only 3 years ago, leaves you out to dry. Perhaps he was planning to sideline you if he won back in 04. You don't need him anyway, endorsements from Harkin, Sanders, Rockefeller, the ASW, and the SEIU help build up your profile. Even Ralph Nader comes out in favor you, if that's a good thing."
         }
     },
     {
@@ -10403,7 +10381,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 26,
             "candidate": 16,
-            "answer_feedback": "John Redwards - class warrior, the conservative media calls you. You're able to rile up the downtrodden with your populist message, but the establishment is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies."
+            "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly angrily yells on Fox News as he declares you public enemy #1."
         }
     }
 ]
