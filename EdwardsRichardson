@@ -6368,7 +6368,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.003
         }
     },
     {
@@ -6918,7 +6918,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 330,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.003
         }
     },
     {
@@ -7448,7 +7448,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 26,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.006
+            "global_multiplier": -0.002
         }
     },
     {
@@ -7458,7 +7458,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 27,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.002
         }
     }
 ]
@@ -9894,7 +9894,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 15,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.005
         }
     },
     {
@@ -9905,7 +9905,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 22,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.001
         }
     },
     {
@@ -9916,7 +9916,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 23,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.001
         }
     },
     {
@@ -9927,7 +9927,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 50,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.001
         }
     },
     {
@@ -9938,7 +9938,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 35,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.001
         }
     },
     {
@@ -9949,7 +9949,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 38,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.001
         }
     },
     {
@@ -9960,7 +9960,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 22,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.006
         }
     },
     {
@@ -9971,7 +9971,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 14,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.006
         }
     },
     {
@@ -9982,7 +9982,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 35,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.006
         }
     },
     {
@@ -9993,7 +9993,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 50,
             "candidate": 16,
             "affected_candidate": 16,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.006
         }
     },
     {
@@ -10412,7 +10412,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 26,
             "candidate": 16,
-            "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly angrily yells on Fox News as he declares you public enemy #1."
+            "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly declares public enemy #1 as he raves of Fox News."
         }
     }
 ]
