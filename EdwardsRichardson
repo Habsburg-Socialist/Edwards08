@@ -6368,7 +6368,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.003
+            "global_multiplier": 0.002
         }
     },
     {
@@ -6918,7 +6918,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 330,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.003
+            "global_multiplier": -0.005
         }
     },
     {
@@ -6928,7 +6928,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 331,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": -0.0075
+            "global_multiplier": -0.001
         }
     },
     {
@@ -7048,7 +7048,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 726,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.0015
+            "global_multiplier": -0.0015
         }
     },
     {
@@ -7068,7 +7068,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 728,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.0015
+            "global_multiplier": 0.001
         }
     },
     {
@@ -7458,7 +7458,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 27,
             "candidate": 16,
             "affected_candidate": 16,
-            "global_multiplier": 0.002
+            "global_multiplier": 0.001
         }
     }
 ]
@@ -8171,7 +8171,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 726,
             "issue": 5,
             "issue_score": 0.5,
-            "issue_importance": 3
+            "issue_importance": 1
         }
     },
     {
@@ -8221,7 +8221,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 26,
             "issue": 1,
             "issue_score": 0.75,
-            "issue_importance": 3
+            "issue_importance": 2
         }
     },
     {
@@ -8231,7 +8231,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 26,
             "issue": 2,
             "issue_score": 0.8,
-            "issue_importance": 3
+            "issue_importance": 2
         }
     },
     {
@@ -10205,7 +10205,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 726,
             "candidate": 16,
-            "answer_feedback": "I get what you’re trying to do, but this blatant attention seeking is way too much. Your core supporters are inspired, but political observers eyeroll at your desperate attempts to stay relevant without a seat. \n"
+            "answer_feedback": "I get what you’re trying to do, but this blatant attention seeking is way too much. Your core supporters are inspired, but pundits cringe at your desperate attempts to stay relevant without a seat. \n"
         }
     },
     {
@@ -10412,7 +10412,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 26,
             "candidate": 16,
-            "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly declares public enemy #1 as he raves of Fox News."
+            "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly angrily declares you public enemy #1 as he rants on Fox News."
         }
     }
 ]
