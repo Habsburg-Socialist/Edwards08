@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 42,
         "fields": {
             "priority": 1,
-            "description": "The Affordable Care Act (i.e. 'Obamacare') will cap annual premiums, require minimum coverage levels, and outlaw discrimination against people with pre-existing conditions. What do you think?",
+            "description": "John, the tabloids are getting a sniff about what you did, and they smell blood. They won't stop bugging our staff about your photographer, Rielle, and you’ll be a dead man walking if you don’t know how to deal with this. What’s your plan John? Everything you've been working for hinges on this.",
             "likelihood": 1
         }
     },
@@ -40,7 +40,7 @@ campaignTrail_temp.questions_json = [
         "pk": 114,
         "fields": {
             "priority": 1,
-            "description": "What is your guiding foreign policy philosophy?",
+            "description": "The Iowa caucus is coming soon, and with it comes debates. What sort of strategy do you want to focus on coming into the debates? Attack Obama, attack Hillary, focus on your own policies? It’s all up to you John.",
             "likelihood": 1
         }
     },
@@ -581,38 +581,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 165,
-        "fields": {
-            "question": 42,
-            "description": "This program will be a disaster. Not only is it an unconstitutional violation of personal freedom, but it will lead to a decline in American health care and will prove to be financially impossible to maintain without socializing the health care system."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 166,
-        "fields": {
-            "question": 42,
-            "description": "This is the wrong way to reform the American health care system. We should be focusing on malpractice reform and on cutting red tape for private insurers."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 167,
-        "fields": {
-            "question": 42,
-            "description": "I'm convinced that this program will work. This is a good compromise allowing private insurers to conduct business, while securing access to health insurance for more Americans. If anything, the increased transparency will reduce insurance costs."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 168,
-        "fields": {
-            "question": 42,
-            "description": "There should be a public insurance company offering health care to all Americans. Private insurers are simply too greedy and too likely to turn down people with pre-existing health conditions."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 173,
         "fields": {
             "question": 44,
@@ -877,38 +845,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 395,
-        "fields": {
-            "question": 114,
-            "description": "American Exceptionalism -- Providence has given America to the world as an inspiration, and we must vigorously defend the ideals of peace and freedom wherever they may be threatened."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 396,
-        "fields": {
-            "question": 114,
-            "description": "Human Rights -- It's past time that we cut allegiances with dictators like the House of Saud and truly lived up to our ideals. I will only support or give aid to democratically elected leaders."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 397,
-        "fields": {
-            "question": 114,
-            "description": "Pragmatism -- Our foreign policy right now is effective. We need to guide foreign nations towards democracy and open markets. Doing so will increase the world's prosperity and decrease the chance of future wars."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 398,
-        "fields": {
-            "question": 114,
-            "description": "Non-Intervention -- Most of our foreign troop deployments are relics of the Cold War. We need to stop occupying other nations and focus on fixing our problems here at home."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 726,
         "fields": {
             "question": 130,
@@ -929,6 +865,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 130,
             "description": "I want to thank North Carolina for electing me and focus my speech on the efforts I’ve made to serve my constituents, people ought to know that I walk the walk and don’t just talk the talk. During my time out of office I’m going to be touring around Homeless Shelters and Universities and bring attention the poverty that people are facing, let it be known I plan to a populist campaign where poverty the #1 issue.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1187,
+        "fields": {
+            "question": 42,
+            "description": "Rielle who? Don’t know about it. She's wonderful woman, but we’ve parted ways, can’t say anything about her. Why are you vultures asking me about this, don't you have a billion other meaningless incidents to inflate?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1188,
+        "fields": {
+            "question": 42,
+            "description": "We have a campaign official here, Andrew Young, he’s loyal, infatuated with me really. We gotta ask him for a favor, big time, it’ll be a tall ask but I know he’ll do it."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1189,
+        "fields": {
+            "question": 42,
+            "description": "Hunter and I both know this would be horrible news, which is why we got to uhhh… see each other less. For both her sake and mine we can’t afford this, she’ll understand, we just can’t do this anymore."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1190,
+        "fields": {
+            "question": 42,
+            "description": "Number one thing we have to do is make sure not a single peep get’s leaked. Double check our staff and who’s been spilling, I’ll have a talk with Rielle and make sure she doesn't tell a soul."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1200,
+        "fields": {
+            "question": 114,
+            "description": "That senator from Illinois, Barack, Lot’s of Young progressives are falling in love with him, but his Healthcare program’s practically austerity compared to mine! I want to make it clear on the Debate stage that Edwards, not Obama, is the real Progressive option in this race, and highlight how I’m to his left of Healthcare, The economy, and Gay Rights."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1201,
+        "fields": {
+            "question": 114,
+            "description": "My path to winning the Nomination is the White Working Class, and it’s clear that Hillary is competing with me in those regards. I’ve got to play up my populism and crank up my southern accent, and make sure to bring up how Hillary left Arkansas to become a New York elitist while I've stayed in North Carolina my entire political career."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1202,
+        "fields": {
+            "question": 114,
+            "description": "I’ll keep myself above the fray, the polls are already showing me in the lead, why go dirty and screw that all up. I’ll outline my policies and how they’re going to help America. I'll emphasize my plans for universal college, free healthcare, and Clean energy. Let people watch Barack and Hillary bicker while talking about the real issues affecting people."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 1203,
+        "fields": {
+            "question": 114,
+            "description": "Y’know, with me being so ahead in the polls, why even bother attending this debate? I’ll make up some excuse to miss out and barnstorm Iowa, people are going to vote for the Candidate on their doorstep, not on TV."
         }
     }
 ]
@@ -2615,7 +2615,7 @@ campaignTrail_temp.state_issue_score_json = [
             "state": 18,
             "issue": 5,
             "state_issue_score": 0.3,
-            "weight": 2
+            "weight": 1.75
         }
     },
     {
@@ -4277,7 +4277,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 16,
             "issue": 1,
-            "issue_score": 0.65
+            "issue_score": 0.7
         }
     },
     {
@@ -4331,7 +4331,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "fields": {
             "candidate": 17,
             "issue": 2,
-            "issue_score": 0
+            "issue_score": 0.15
         }
     },
     {
@@ -4460,7 +4460,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "fields": {
             "candidate": 30,
             "issue": 1,
-            "issue_score": 0.6
+            "issue_score": 0.5
         }
     },
     {
@@ -4487,7 +4487,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "fields": {
             "candidate": 30,
             "issue": 4,
-            "issue_score": 0.35
+            "issue_score": 0.55
         }
     },
     {
@@ -4496,7 +4496,7 @@ campaignTrail_temp.running_mate_issue_score_json = [
         "fields": {
             "candidate": 30,
             "issue": 5,
-            "issue_score": 0.45
+            "issue_score": 0.4
         }
     }
 ]
@@ -6623,66 +6623,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 89,
-        "fields": {
-            "answer": 165,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.066
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 90,
-        "fields": {
-            "answer": 165,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 91,
-        "fields": {
-            "answer": 166,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.066
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 92,
-        "fields": {
-            "answer": 167,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 93,
-        "fields": {
-            "answer": 168,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 94,
-        "fields": {
-            "answer": 168,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.08
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 99,
         "fields": {
             "answer": 173,
@@ -6973,66 +6913,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 283,
-        "fields": {
-            "answer": 395,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": 0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 284,
-        "fields": {
-            "answer": 395,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": 0.015
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 285,
-        "fields": {
-            "answer": 396,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 286,
-        "fields": {
-            "answer": 396,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 287,
-        "fields": {
-            "answer": 398,
-            "candidate": 16,
-            "affected_candidate": 16,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 288,
-        "fields": {
-            "answer": 398,
-            "candidate": 17,
-            "affected_candidate": 17,
-            "global_multiplier": -0.02
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 300,
         "fields": {
             "answer": 726,
@@ -7203,26 +7083,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 348,
-        "fields": {
-            "answer": 165,
-            "candidate": 16,
-            "affected_candidate": 19,
-            "global_multiplier": 0.0125
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 349,
-        "fields": {
-            "answer": 168,
-            "candidate": 16,
-            "affected_candidate": 19,
-            "global_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 350,
         "fields": {
             "answer": 173,
@@ -7343,26 +7203,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 402,
-        "fields": {
-            "answer": 167,
-            "candidate": 17,
-            "affected_candidate": 18,
-            "global_multiplier": 0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 403,
-        "fields": {
-            "answer": 168,
-            "candidate": 17,
-            "affected_candidate": 18,
-            "global_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 405,
         "fields": {
             "answer": 182,
@@ -7403,16 +7243,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 431,
-        "fields": {
-            "answer": 398,
-            "candidate": 17,
-            "affected_candidate": 18,
-            "global_multiplier": -0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1179,
         "fields": {
             "answer": 26,
@@ -7429,6 +7259,46 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 16,
             "affected_candidate": 16,
             "global_multiplier": 0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1196,
+        "fields": {
+            "answer": 1187,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1197,
+        "fields": {
+            "answer": 1188,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1198,
+        "fields": {
+            "answer": 1189,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": -0.001
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 1199,
+        "fields": {
+            "answer": 1190,
+            "candidate": 16,
+            "affected_candidate": 16,
+            "global_multiplier": -0.001
         }
     }
 ]
@@ -7832,46 +7702,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 4,
             "issue_score": 0.5,
             "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 158,
-        "fields": {
-            "answer": 165,
-            "issue": 2,
-            "issue_score": -0.8,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 159,
-        "fields": {
-            "answer": 166,
-            "issue": 2,
-            "issue_score": -0.25,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 160,
-        "fields": {
-            "answer": 167,
-            "issue": 2,
-            "issue_score": 0.44,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 161,
-        "fields": {
-            "answer": 168,
-            "issue": 2,
-            "issue_score": 0.66,
-            "issue_importance": 4
         }
     },
     {
@@ -10095,42 +9925,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 398,
-        "fields": {
-            "answer": 165,
-            "candidate": 16,
-            "answer_feedback": "You can write any thoughts of winning this election right now. Criticizing your own policy this strongly looks bad to almost everyone."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 399,
-        "fields": {
-            "answer": 166,
-            "candidate": 16,
-            "answer_feedback": "This is a bad answer for you, considering that it's your own health care plan."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 400,
-        "fields": {
-            "answer": 167,
-            "candidate": 16,
-            "answer_feedback": "Way to stick up for your principles and your policies."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 401,
-        "fields": {
-            "answer": 168,
-            "candidate": 16,
-            "answer_feedback": "Pundits are asking whether you've implied that your plan doesn't go far enough."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 412,
         "fields": {
             "answer": 330,
@@ -10311,42 +10105,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 464,
-        "fields": {
-            "answer": 165,
-            "candidate": 17,
-            "answer_feedback": "Keep throwing the red meat to your supporters."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 465,
-        "fields": {
-            "answer": 166,
-            "candidate": 17,
-            "answer_feedback": "This is a decent response for you if you're trying to appeal to a larger base."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 466,
-        "fields": {
-            "answer": 167,
-            "candidate": 17,
-            "answer_feedback": "You've spent years convincing your Republican base that you had changed your mind on this issue. What gives?"
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 467,
-        "fields": {
-            "answer": 168,
-            "candidate": 17,
-            "answer_feedback": "How can you even say something like this? You've placed yourself to the left of Barack Obama on health care..."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 470,
         "fields": {
             "answer": 223,
@@ -10361,6 +10119,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 26,
             "candidate": 16,
             "answer_feedback": "A sharp turn to the left from 4 years ago, you rile up the downtrodden like a southern William Jennings Bryan. The establishment media is quick to launch a propaganda war at your 'unrealistic' and 'borderline socialist' policies, Bill O'Reilly angrily declares you public enemy #1 as he rants on Fox News."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1192,
+        "fields": {
+            "answer": 1188,
+            "candidate": 16,
+            "answer_feedback": "Young’s a real trooper, you don’t know what you’d do without him. He promises to help you deal with everything, calls you a real hero. You see something in his eyes, and infatuation of some sorts. It’s chilling really, the effect you have on this man, you wonder if it’s like this with your other followers."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1193,
+        "fields": {
+            "answer": 1187,
+            "candidate": 16,
+            "answer_feedback": "It’s petty really, how much people are willing to go in order to take you down. The media just loves good fucking story, the press, the gossipers, all of them want to take you down. You won’t let them though, not now, not after all you’ve done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1194,
+        "fields": {
+            "answer": 1189,
+            "candidate": 16,
+            "answer_feedback": "Hunter understands, but at the same time she’s reluctant to let you go, rambling about how the two of you are meant for bigger things together, it makes you sick in the head. You promise to assist her, financially, as long as she keeps a low profile and keeps to herself. She seems content for now, but something about her makes it seem this won't disappear that easily."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1195,
+        "fields": {
+            "answer": 1190,
+            "candidate": 16,
+            "answer_feedback": "See no evil, hear no evil speak, no evil. That's the memo around the Edwards 2008 campaign. You hope no one says a word, but you can never be sure, it’s as if the whole world is plotting against you. Rielle promises to not tell a soul, but what trust can you give to a homewrecker? One of your Aides, Andrew Young, swears wholeheartedly to stay 100% loyal to you, and despite all your fears you feel like you can trust him."
         }
     }
 ]
